@@ -18,7 +18,7 @@ DOMAIN-SUFFIX,sdifen.com
 
 DOMAIN-KEYWORD,oray
 DOMAIN-KEYWORD,sunlogin
-DOMAIN-KEYWORD,cursor
+#DOMAIN-KEYWORD,cursor
 
 
 IP-CIDR,47.75.152.35/32,no-resolve
