@@ -14,4 +14,4 @@ IP-CIDR,45.55.255.55/32,no-resolve
 DOMAIN-SUFFIX,listary.com
 
 #finalshell
-DOMAIN-SUFFIX,hostbuf.com
+#DOMAIN-SUFFIX,hostbuf.com
