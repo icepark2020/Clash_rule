@@ -13,14 +13,12 @@ DOMAIN-SUFFIX,wotgame.cn
 DOMAIN-SUFFIX,wggames.cn
 DOMAIN-SUFFIX,wowsgame.cn
 DOMAIN-SUFFIX,wargaming.net
-DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,zerotier.com
 DOMAIN-SUFFIX,jenkins.io
 DOMAIN-SUFFIX,s3.amazonaws.com
 
 DOMAIN-KEYWORD,oray
 DOMAIN-KEYWORD,sunlogin
-DOMAIN-KEYWORD,cursor
 DOMAIN-KEYWORD,jenkins
 
 IP-CIDR,47.75.152.35/32,no-resolve
