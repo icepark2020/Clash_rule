@@ -4,7 +4,6 @@
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,hitun.io
 DOMAIN-SUFFIX,registry-1.docker.io
-DOMAIN-SUFFIX,dl.google.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
