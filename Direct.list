@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,wargaming.net
 DOMAIN-SUFFIX,zerotier.com
 DOMAIN-SUFFIX,jenkins.io
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,mynetname.net
 
 DOMAIN-KEYWORD,oray
 DOMAIN-KEYWORD,sunlogin
