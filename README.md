@@ -8,7 +8,6 @@
 
 - **sinbreak.ini** - OpenClash 配置文件模板
 - **sinbreak-clash-android.ini** - Clash for Android 配置文件模板
-- **sinbreak-quanx.ini** - Quantumult X 配置文件模板
 
 ### 规则集文件
 
@@ -49,12 +48,6 @@ http://xxx.xxx.xxx.xxx:25500/sub?target={目标格式}&url={订阅链接}&config
 http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjs882829%2Frule%2Fmaster%2Fsinbreak.ini
 ```
 
-#### Quantumult X 格式
-
-```
-http://xxx.xxx.xxx.xxx:25500/sub?target=quanx&url=[订阅地址，需要URL转码]&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjs882829%2Frule%2Fmaster%2Fsinbreak-quanx.ini
-```
-
 #### Clash for Android 格式
 
 ```
@@ -70,10 +63,6 @@ http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转�
 http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=sinbreak.ini
 ```
 
-#### Quantumult X
-```
-http://xxx.xxx.xxx.xxx:25500/sub?target=quanx&url=[订阅地址，需要URL转码]&config=sinbreak-quanx.ini
-```
 
 ## 功能特性
 
