@@ -1,1 +1,126 @@
 # rule
+
+规则集和配置文件仓库，用于 Clash 和 Quantumult X 等代理工具。
+
+## 文件说明
+
+### 配置文件
+
+- **sinbreak.ini** - OpenClash 配置文件模板
+- **sinbreak-clash-android.ini** - Clash for Android 配置文件模板
+- **sinbreak-quanx.ini** - Quantumult X 配置文件模板
+
+### 规则集文件
+
+- **Direct.list** - 直连规则列表
+- **ProxyLite.list** - 轻量代理规则列表
+- **AI.list** - AI 服务规则列表
+- **BanProgram.list** - 应用净化规则列表
+
+## 使用 subconverter 转换订阅
+
+### 本地 subconverter 地址
+
+```
+http://xxx.xxx.xxx.xxx:25500/sub
+```
+
+### 转换链接格式
+
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target={目标格式}&url={订阅链接}&config={配置文件}
+```
+
+### 参数说明
+
+- **target**: 目标格式
+  - `clash` - Clash 格式
+  - `quanx` - Quantumult X 格式
+  - 其他格式请参考 [subconverter 文档](https://github.com/tindy2013/subconverter)
+
+- **url**: 订阅链接（需要 URL 编码）
+- **config**: 配置文件路径或 URL（需要 URL 编码）
+
+### 示例链接
+
+#### OpenClash (Clash 格式)
+
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjs882829%2Frule%2Fmaster%2Fsinbreak.ini
+```
+
+#### Quantumult X 格式
+
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target=quanx&url=[订阅地址，需要URL转码]&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjs882829%2Frule%2Fmaster%2Fsinbreak-quanx.ini
+```
+
+#### Clash for Android 格式
+
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjs882829%2Frule%2Fmaster%2Fsinbreak-clash-android.ini
+```
+
+### 本地配置文件路径
+
+如果配置文件放在本地 subconverter 的工作目录下：
+
+#### OpenClash
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=sinbreak.ini
+```
+
+#### Quantumult X
+```
+http://xxx.xxx.xxx.xxx:25500/sub?target=quanx&url=[订阅地址，需要URL转码]&config=sinbreak-quanx.ini
+```
+
+## 功能特性
+
+配置文件支持以下功能：
+
+- ✅ 自动测速
+- ✅ 应用分流
+- ✅ 增强中国 IP 段
+- ✅ 增强国外 GFW 列表
+- ✅ 节点过滤
+- ✅ DNS 防泄露（95% 常用网站已做到防泄露）
+
+## 策略组说明
+
+配置文件包含以下策略组：
+
+- **🚀 节点选择** - 主节点选择策略组
+- **♻️ 自动选择** - 自动选择最快节点
+- **🔯 故障转移** - 按地区故障转移（香港、日本、新加坡、美国）
+- **🇭🇰 香港节点** - 香港节点筛选
+- **🇯🇵 日本节点** - 日本节点筛选
+- **🇸🇬 新加坡节点** - 新加坡节点筛选
+- **🇺🇲 美国节点** - 美国节点筛选
+- **🔮 负载均衡** - 负载均衡策略组
+- **🐸 手动切换** - 手动选择节点
+- **🎯 全球直连** - 直连策略
+- **🐟 漏网之鱼** - 默认策略
+
+## 规则集说明
+
+配置文件使用以下规则集：
+
+- **🎯 全球直连** - 中国域名和 IP 直连规则
+- **🚀 节点选择** - 需要代理的域名规则
+- **🤖 AI** - AI 服务规则（OpenAI、Bard、Claude 等）
+- **📹 YouTube** - YouTube 规则
+- **🎥 Netflix** - Netflix 规则
+- **🎵 TikTok** - TikTok 规则
+- **👨🏿‍💻 GitHub** - GitHub 规则
+- **🍀 Google** - Google 服务规则
+- **📲 Telegram** - Telegram 规则
+- **🎮 游戏平台** - 游戏平台规则（Steam、Epic、Origin 等）
+- **🍃 应用净化** - 广告拦截规则
+- **🛡️ 隐私防护** - 隐私保护规则
+
+## 相关链接
+
+- [subconverter 项目](https://github.com/tindy2013/subconverter)
+- [ACL4SSR 规则集](https://github.com/ACL4SSR/ACL4SSR)
+- [blackmatrix7 规则集](https://github.com/blackmatrix7/ios_rule_script)
