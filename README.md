@@ -1,6 +1,6 @@
 # rule
 
-规则集和配置文件仓库，用于 Clash 和 Quantumult X 等代理工具。
+规则集和配置文件仓库，用于 Clash （openclash/android）等代理工具。
 
 ## 文件说明
 
@@ -33,10 +33,10 @@ http://xxx.xxx.xxx.xxx:25500/sub?target={目标格式}&url={订阅链接}&config
 ### 参数说明
 
 - **target**: 目标格式
+
   - `clash` - Clash 格式
   - `quanx` - Quantumult X 格式
   - 其他格式请参考 [subconverter 文档](https://github.com/tindy2013/subconverter)
-
 - **url**: 订阅链接（需要 URL 编码）
 - **config**: 配置文件路径或 URL（需要 URL 编码）
 
@@ -59,10 +59,10 @@ http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转�
 如果配置文件放在本地 subconverter 的工作目录下：
 
 #### OpenClash
+
 ```
 http://xxx.xxx.xxx.xxx:25500/sub?target=clash&url=[订阅地址，需要URL转码]&config=sinbreak.ini
 ```
-
 
 ## 功能特性
 
